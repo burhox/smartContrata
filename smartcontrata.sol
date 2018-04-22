@@ -8,6 +8,7 @@ contract SmartContrata {
   function set(uint x) {
        ruajteDhenat = x;
   }
+//Ndryshimi nga branch bimi
 
   function get () constant returns (uint) {
      return ruajteDhenat;
